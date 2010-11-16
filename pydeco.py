@@ -7,7 +7,7 @@ import logging
 import TestClass
 
 __author__        = "Your Name Here"
-__copyright__     = "Copyright: (c) 2010 <COMPANY_NAME>"
+__copyright__     = "Copyright: (C) 2010 <COMPANY_NAME>"
 __creation_date__ = ":r!date"
 __version__       = 'v0.1.0'
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 #==============================================================================
 # Option Parser
 #==============================================================================
-    parser = OptionParser(usage="%prog <options> [filename]", version="%s\n%s" % (__copyright__, __version__))
+    parser = OptionParser(usage="%prog <options> [filename]", version="%s\n%s" % (__version__, __copyright__))
     parser.add_option("-d", "--debug",
                         dest="debug",
                         default='error',
